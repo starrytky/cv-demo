@@ -1,6 +1,15 @@
 {
+  "name": "cv-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:starrytky/cv-demo.git",
+  "author": "starrytky <starrytky@qq.com>",
+  "license": "MIT",
   "devDependencies": {
-    "cssnano": "^5.0.6",
-    "postcss": "^8.3.5"
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ."
   }
 }
